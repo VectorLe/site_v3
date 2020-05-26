@@ -308,7 +308,8 @@ section .main-content {
  *
 */
 /* PORTRAIT MOBILE PHONE */
-@media only screen and (max-width: 600px){
+@media only screen 
+and (max-width: 600px){
 	.headline-area {
 		left: 25%;
 	}
@@ -344,7 +345,9 @@ section .main-content {
 }
 
 /* PORTRAIT TABLET */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen 
+and (min-width: 600px) 
+and (max-width: 768px) {
 	#projects .popup-inner,
 	#projects .popuptext {
 		width: 100%;
@@ -358,7 +361,10 @@ section .main-content {
 } 
 
 /* LANDSCAPE TABLET */
-@media only screen and (min-width: 768px) {
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
 	#projects .popup-inner,
 	#projects .popuptext {
 		width: 100%;
