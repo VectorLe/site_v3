@@ -307,7 +307,8 @@ section .main-content {
  * MEDIA QUERIES 
  *
 */
-@media only screen and (max-width: 600px) {
+/* PORTRAIT MOBILE PHONE */
+@media only screen and (max-width: 600px){
 	.headline-area {
 		left: 25%;
 	}
@@ -339,5 +340,31 @@ section .main-content {
 	}
 	#projects h2 {
 		margin-top: 10vh;
+	}
+}
+
+/* PORTRAIT TABLET */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+	#projects .popup-inner,
+	#projects .popuptext {
+		width: 100%;
+		height: 100%;
+	}
+
+	#projects .project {
+		height: 35vh !important;
+		margin-bottom: 25px;
+	}
+} 
+
+/* LANDSCAPE TABLET */
+@media only screen and (min-width: 768px) {
+	#projects .popup-inner,
+	#projects .popuptext {
+		width: 100%;
+	}
+
+	#projects .project {
+		height: 50vh;
 	}
 }
