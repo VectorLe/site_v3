@@ -348,6 +348,10 @@ and (max-width: 600px){
 @media only screen 
 and (min-width: 600px) 
 and (max-width: 768px) {
+	#about .popup-inner {
+		height: 100%;
+	}
+	
 	#projects .popup-inner,
 	#projects .popuptext {
 		width: 100%;
@@ -365,6 +369,10 @@ and (max-width: 768px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
+	#bg {
+		background-size: auto;
+	}
+
 	#projects .popup-inner,
 	#projects .popuptext {
 		width: 100%;
