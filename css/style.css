@@ -227,10 +227,13 @@ section .main-content {
  * PROJECTS 
  *
 */
-#projects .popup-inner,
+#projects .popup-inner {
+	width: 75%;
+}
+
 #projects .popuptext {
 	padding: 20px;
-	width: 75%;
+	width: 90%;
 }
 
 #projects h2 {
@@ -245,7 +248,7 @@ section .main-content {
 }
 
 #projects .project {
-	width: 350px;
+	width: 375px;
 	background-color: white;
 	border-radius: 15px;
 }
