@@ -1,3 +1,8 @@
+/*
+ *
+ * GENERAL
+ *
+*/
 * {
 	margin: 0;
 	padding: 0;
@@ -11,6 +16,18 @@ a {
 	text-decoration: none;
 	color: white;
 	outline: 0;
+}
+
+
+#about h2,
+#projects h2 {
+	border-bottom: 3px solid darkslategrey;
+}
+
+#about p a:hover,
+.sidebar .links li a:hover {
+	transition: 0.4s;
+	color: lightcoral;
 }
 
 body {
@@ -65,7 +82,7 @@ section .main-content {
 .sidebar .social {
 	width: 50%;
 	margin-top: 11px;
-	transition: all 0.2s;
+	transition: all 0.4s;
 }
 
 .sidebar .social:hover {
@@ -92,11 +109,6 @@ section .main-content {
 
 .sidebar .links li a {
 	font-weight: bold;
-	transition: 0.2s;
-}
-
-.sidebar .links li a:hover {
-	color: lightcoral;
 }
 
 /*
@@ -132,7 +144,7 @@ section .main-content {
 .headline-area .hover-color:hover {
 	cursor: default;
 	color: salmon;
-	transition: 0.5s;
+	transition: 0.4s;
 }
 
 /*
