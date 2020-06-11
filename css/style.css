@@ -342,10 +342,26 @@ and (max-width: 600px){
 	#projects .popup-inner,
 	#projects .popuptext {
 		width: 100%;
+		display: relative;
+		padding: 0;
+	}
+	#projects .popuptext {
+		flex-flow: column nowrap;
+		justify-content: space-around;
+		position: absolute;
+		top: 5vh;
+		padding: 0 20px;
+	}
+	#projects .project-list {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		width: 100%;
 	}
 	#projects .project {
 		height: 40vh;
 		margin: 25px 0;
+		width: 90%;
 		overflow: scroll;
 	}
 	#projects .project p {
