@@ -240,12 +240,12 @@ section .main-content {
  *
 */
 #projects .popup-inner {
-	width: 75%;
+	width: 100%;
 }
 
 #projects .popuptext {
 	padding: 20px;
-	width: 90%;
+	width: 100%;
 }
 
 #projects h2 {
