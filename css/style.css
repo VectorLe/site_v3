@@ -256,13 +256,13 @@ section .main-content {
 	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
 }
 
 #projects .project {
 	width: 375px;
 	background-color: white;
 	border-radius: 15px;
+	margin: auto;
 }
 
 #projects .project img {
